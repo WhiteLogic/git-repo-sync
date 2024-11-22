@@ -10,10 +10,10 @@ TOKEN = 'ghp_Tok3nEx4mp1e'
 
 REMOTE_REPO_NAME = 'origin'
 
-REPOS_LIST = {
+REPOS_LIST = [
     ('/orgs/FirstOrg',  1, 'C:/projects/first',  False),
     ('/orgs/SecondOrg', 1, 'C:/projects/second', False),
-}
+]
 
 
 def process_one_link(link, page, repo_root_dir, mirror):
